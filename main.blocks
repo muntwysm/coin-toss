@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="|Sk{P.Wac,?HLI`D+Lmq" x="0" y="0"><field name="NAME">Gesture.LogoUp</field><statement name="HANDLER"><block type="controls_if" id="(?FW,?v:K:5YY97z9]ea"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="h/h~rN+@Dr`JN)]^[d?~"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_random" id="T_ys0q6Pe^3taG223hke"><value name="min"><shadow type="math_number" id="~GAEypD5kB%H{pSBJV1~"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="7yvn)ItCs^tx1;aV:Aew"><field name="NUM">1</field></shadow></value></block></value><value name="B"><shadow type="math_number" id="+3m8(OutBGAGxu*l]w|O"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="GEQf4Gm]Y)0PgB)={ex0"><field name="LEDS">`
+        . # . # . 
+        . # . # . 
+        . # # # . 
+        . # . # . 
+        . # . # .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="}d09dIAM}|.floIYOqoS"><field name="LEDS">`
+        . # # # . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field></block></statement><next><block type="device_pause" id="E;`V4PQ^5|pB`FN-}]]{"><value name="pause"><shadow type="timePicker" id="9w)#Iwy`_~Jw_2YUJv}i"><field name="ms">1000</field></shadow></value><next><block type="device_clear_display" id=",~/C!!ikeYQ8liGy][-I"></block></next></block></next></block></statement></block></xml>
